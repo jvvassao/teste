@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>contato</title>
+    <link rel="stylesheet" href="resets.css">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <div class="caixa"><h1> <img src="Santos.png" alt="logo santos"></h1>
+        <nav>
+            <ul>
+                <li><a href="home.html">home</a></li>
+                <li><a href="produtosloja.html">produtos</a></li>
+                <li><a href="contatos.html">contato</a></li>
+            </ul>
+        </nav>
+        </div>
+    </header>
+
+   <main>
+    <form>
+        <label for="nomesobrenome">
+      nome e sobrenome
+        </label>
+ <input type="text"  id="nomesobrenome" class="input-padrao" required>
+
+ <label for="email">email</label>
+ <input type="text"  id="email"  class="input-padrao" required>
+
+<label for="tel">telefone</label>
+<input type="text" id="telefone" class="input-padrao" required>
+
+<label for="mensagem">mensagem</label>
+<textarea name="" id="mensagem" cols="30" rows="10" class="input-padrao"required></textarea>
+
+  <fieldset>
+<legend>como prefere nosso contato?</legend>
+<label for="radio-email"><input type="radio" name="contato" value="email" id="radio-email">email</label>
+<label for="radio-telefone"><input type="radio" name="contato" value="telefone" id="radio-telefone">telefone</label>
+<label for="radio-whatsapp"><input type="radio" name="contato" value="whatsapp" id="radio-whatsapp">whatsapp</label>
+  </fieldset>
+  <input type="submit" value="enviar formulario"  class="enviar">
+ </form>
+
+ <table>
+<thead>
+<tr>
+    <th>dia</th>
+    <th>horario</th>
+</tr>
+</thead>
+ <tbody>
+    <tr>
+        <td>Segunda</td>
+        <td>10-22</td>
+    </tr>
+
+     <tr>
+        <td>terca</td>
+        <td>10-22</td>
+     </tr>
+     <tr>
+        <td>Quarta</td>
+        <td>10-22</td>
+     </tr>
+       <tr>
+       <td>quinta</td>
+        <td>10-22</td>
+       </tr>
+       <tr>
+        <td>Sexta</td>
+        <td>10-22</td>
+       </tr>
+</tbody>
+ </table>
+</main>
+<footer>
+    <img src="Santos.png" alt="">
+     <p class="copyright">&copy; santos store-2023</p>
+</footer>
+</body>
+</html>
